@@ -1,0 +1,73 @@
+html {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.logos-usco{
+	display: grid;
+	grid-template-rows: 1fr; 
+	grid-template-columns: 200px 300px 1fr 500px; 
+	grid-auto-columns: 1fr; /* Para las columnas nuevas que se crean que tenga esa medida*/
+	grid-auto-rows: 1fr; /* Para las filas nuevas que se crean que tenga esa medida*/
+	background-color: #8F141B;
+	grid-auto-flow: dense; /* Para rellenar los espacios vacios que tenga en medio*/
+	height: auto;
+	justify-items: center; /* sirve para justificar los costados*/
+	align-items: center; /* Sirve para justificar arriba y abajo*/
+}
+
+.grid-item2:first-child{
+	align-self: start;
+	justify-self: start;
+	transform: scale(0.8);
+}
+
+.grid-item2:nth-child(2){
+	padding: 15px;
+	justify-self: start;
+	transform: scale(1.4);
+}
+
+.grid-item2:nth-child(3){
+	padding: 15px;
+	justify-self: center;
+	align-self: center;
+}
+
+.grid-item2:nth-child(4){
+	padding: 15px;
+	justify-self: end;
+	align-self: end;
+}
+
+ 
+
+.ingresar{
+	height: auto;
+	width: 300px;
+	margin: auto;
+	border: 1px solid #8F141B;
+	background-color: #EFF1F2;
+	text-align: center;
+}
+
+h1, h2{
+	background-color: #8F141B;
+	color: #fff;
+	padding: 5px;
+	margin: 0;
+}
+
+.btn_save{
+	font-size: 12pt;
+	background: #DFD4A6;
+	padding: 10px;
+	color: #8F141B;
+	letter-spacing: 1px;
+	border: 0;
+	cursor: pointer;
+	margin: 15px auto;
+}
+.btn_save:hover{
+	background: #EFEAD3;
+}
+
